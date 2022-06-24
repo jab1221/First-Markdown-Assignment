@@ -8,9 +8,8 @@ output: html_document
 
 ## **What is Data Science?**
 ![](https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt3ddd4afb7fd0365f/6169a9573a73be248fb66a44/datascience-WrightStudio-adobe.jpg)
-Data science, in essence, is the utilization of numerous data, whether qualitative or quantitative, to make well-informed decisions that result in efficiency, effectiveness, and accountability. 
 
-
+Data science, in essence, is the utilization of numerous data, whether qualitative or quantitative, to make well-informed decisions that result in efficiency, effectiveness, and accountability.
 
 ## **Why do we need to study and analyze data?**
 
