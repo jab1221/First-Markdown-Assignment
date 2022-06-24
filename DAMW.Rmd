@@ -1,37 +1,96 @@
 ---
-title: "Data Science in the Modern World"
+title: "**Data Science in the Modern World**"
 author: "Agaya J, Ormilon M, Pagulayan D, Pelobello F"
 date: '2022-06-23'
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+
+## **What is Data Science?**
+![](https://eu-images.contentstack.com/v3/assets/blt66983808af36a8ef/blt3ddd4afb7fd0365f/6169a9573a73be248fb66a44/datascience-WrightStudio-adobe.jpg)
+
+
+
+## **Why do we need to study and analyze data?**
+
+### Develops Analytical Skills
+
+![](https://smallbusinessify.com/wp-content/uploads/2018/08/increase-critical-thinking-skills-696x510.jpg)
+ 
+ Data Science will assist us in developing analytical skills that we can apply in our daily lives. We can learn new things and develop the skills we need to solve problems by studying and analyzing data. It is always helpful to be able to think critically and approach problems in the right way, not only in the workplace but also in daily life. According to Venturebeat, "being able to look at various pieces of data and draw a conclusion is probably the most valuable skill for any employee to have, and surprisingly it's something that's too often missing; from otherwise technically advanced employees."
+ 
+### Efficiency
+![](https://www.integrify.com/site/assets/files/2521/being-more-efficient.png)
+
+Data Science is important as it generally increases efficiency. Its applications allow us to get a bigger picture of a process, project, business, and others. It is easier to identify flaws, improve workflow, and plan other optimizations with Data Science.
+
+### Realizing Human Tendencies through Patterns
+![](https://hips.hearstapps.com/clv.h-cdn.co/assets/17/34/2048x1024/landscape-1503682497-walmart-poptarts-hurricane.jpg?resize=980:*)
+
+In the business world, data science holds plenty of value. It is outright effective in discerning consumer behavior or how and when customers purchase certain products. For instance, it is stated that Walmart, at one point, recognized through provided data that consumers who were purchasing certain products in preparation for a storm actually bought strawberry Pop-Tarts as well. With that “connection” between rainy days and Pop-Tarts, it is quite certain that Walmart has utilized that data to devise an effective strategy to advertise their products. Thus, data science indeed works wonders in the market. 	
+
+### Predicting Possible Circumstances
+Through data science, having a glimpse of the future becomes easier. This is evident in gambling, sports, stock market, cryptocurrencies, etc. Let’s take the recent Philippine elections as an example. In April 2022, Pulse Asia predicted that presidential candidate Ferdinand Marcos Jr. would win the Presidency by garnering 56% of the votes as shown on the table below.
+
+```{r, echo=FALSE, warning=FALSE}
+data= matrix(c(56,23,7,4,2), ncol=1, byrow=TRUE)
+ 
+# specify the column names and row names of matrix
+colnames(data) = c('Projected percentage of votes')
+rownames(data) <- c('Marcos','Robredo','Pacquiao','Domagoso','Lacson')
+ 
+# assign to table
+final=as.table(data)
+ 
+# display
+final
 ```
+*Data on table is taken from https://www.pulseasia.ph/april-2022-nationwide-survey-on-the-may-2022-elections/*
 
-## What is Data Science?
+This is consistent with the actual results of the elections after Marcos garnered 58.74% of the total votes. This goes to show that data science can accurately predict future circumstances if done correctly.
 
-Ako po si Fernan 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## **What are some applications of data science?**
 
-```{r cars}
-summary(cars)
-```
+### Drug Discovery
+![R Markdown image](https://th.bing.com/th/id/R.b4392d8bf3edcfbcafc13d770dfc15fd?rik=j5leVjVq7OT75A&riu=http%3a%2f%2fwww.bmdrc.org%2fwp-content%2fuploads%2f2020%2f05%2fDD_Pipeline_ENG.png&ehk=TRxKE1LZhy%2fyPdvmqtNXB73BEmI65U1sdWtbmIQwgkc%3d&risl=&pid=ImgRaw&r=0)
+In the process of drug discovery, new candidate medications are created. Drug discovery is a time-consuming and frequently complex process. It is a lengthy procedure. Data Science can aid in the simplification of this process and provide early insight into the success rate of a newly discovered drug. We can also use Machine Learning to predict the outcome of several drug combinations and their effect on different gene structures. This was used by researchers at the Massachusetts Institute of Technology (MIT). They developed a machine learning-based technique for calculating a drug molecule's binding affinity with a target protein more quickly. Bin Zhang, the Pfizer-Laubach Career Development Professor in Chemistry at MIT, an associate member of the Broad Institute of MIT and Harvard, and a co-author of a new paper describing the technique, says that because the method is orders of magnitude faster than the previous one, drug discovery can now be done in a reliable and efficient manner. With such intuitive offerings in this field, Healthcare is one of the most crucially beneficial Data Science Applications.
 
-### Why do we need to study and analyze data?
+### Policy Making
+![R Markdown image](https://images.nature.com/original/magazine-assets/d41586-020-02814-3/d41586-020-02814-3_18449016.jpg)
+On March 17, 2022, the United States Department of Homeland Security banned the entry of foreign nationals coming from China, Iran and Certain Countries of Europe. The ban was triggered by data claiming that there is potential for widespread transmission of the coronavirus by infected individuals seeking to enter the United States. Hence, on March 11, 2022, former President Donald Trump issued proclamations that banned entry from the previously mentioned countries. Despite the US having the most number of Covid-19 cases, data from _ shows that it could have been worse, had Trump not issued the travel ban. In this case, data science helped save thousands and maybe even millions of lives.
 
-You can also embed plots, for example:
+### Airline In-flight Purchases
+![](https://editor.analyticsvidhya.com/uploads/89728Burgers.jpg)
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
+The airline industry has efficiently made use of data algorithms to make well-informed decisions, particularly on in-flight purchases. There was an instance where the data scientists of EasyJet, an airline company based in Switzerland, discovered that the demand for certain products during a flight were varying. More specifically, they found out that there was a notable difference in terms of demand between morning and evening flights. Eventually, it was noted that about three freshly-made food products were disposed of after a flight, which, over the course of a year, was approximately 800,000 food products put to waste. With this alarming statistic, the data science team created an algorithm to forecast in-flight demands, which, in turn, allowed the company to drastically revise the costs needed to produce food and overall be an eco-friendly venture. 
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+### Targeted Advertising
+![R Markdown image](https://expandcart.com/wp-content/uploads/2020/08/Facebook-Remarketing-Targeted-Advertising-Campaigns.png)
+Data Science plays an important role in Targeted Advertising. Targeted Advertising is a form of online advertising that advertises products or services to people based on demographics or psychographics such as race, economic status, sex, education, personal values, opinions, lifestyles, interests, etc. Targeted marketing immediately brings a product to its intended market. It streamlined this relationship between product and consumer. At the same time, companies are able to be more efficient with their marketing resources.
+An example of this is Meta's Advertisement Targeting for business owners who wish to promote their services on Facebook. Meta identifies three different audiences to advertise to namely, those who fit your target criteria, returning customers, and audiences with similar interests as your main target audience.
 
-### What are some applications of data science?
 
-### What are some specializations in data science?
+## **What are some beneficial examples of data science studies?**
 
-#### References
+### Predictive Analysis on the Economic Status of the Philippines under a Second Marcos Presidency
+The Philippines is on the verge of an economic crisis. As of May 2022, the inflation rate shot up to 5.4%. This means that on average, prices of daily items increase by up to 5.4%. On June 30, 2022, there will be a new presidency under Ferdinand Marcos Jr. This study aims to look into the current economic situation of the Philippines in order to specify the areas that needed to be focused on by the government under Marcos. Using statistical trend analysis, this study will predict the projected economic growth or failure that would affect the entire country. In case of a projected economic disaster, the study will also come up with ways to revert the situation and mitigate its effects.
+
+### Statistical Study on the Technology Literacy of Filipinos.
+A study I would be interested in would be a survey on Filipinos' technology literacy. Technology Literacy is defined as, "the ability to effectively use technology to access, evaluate, integrate, create and communicate information to enhance the learning process through problem-solving and critical thinking."
+This information can prove beneficial to different sectors. In education, school curricula for computer education subjects can be adjusted based on the study's findings. Tech-related companies can also use this information to better understand their Philippine market.
+Studies where the technology literacy of a certain group of individuals have been conducted before. Such as the case of Estrella Mountain Community College, where technology literacy assessments are conducted on their students. I would be interested if a similar study would be conducted for the Filipino masses.
+
+### Statistical Analysis on Online Sales During the Pandemic
+A data science topic that interests me would be a study on online sales during the pandemic. Because most of us use social media nowadays, the data from this study is easily accessible. During the pandemic, digital shopping was everywhere. According to Facebook's Emerging Trends Research, 87 percent of respondents are willing to spend more for ease of access to products or services. Everyone uses Shopee or other applications to purchase their necessities. In this study, we need to know the data's mean, variance, and standard deviation, as well as various statistical formulas that will aid in data visualization.
+
+Analyzing and studying data on the number of people who use social media to sell and buy necessities will be highly beneficial as references for other aspiring sellers. This research will assist them in developing a strategy to increase the profitability of their products. And customers will know whether or not buying products via the internet is advantageous.
+
+
+
+
+## **References**
+
+## **Image Sources**
+
+
