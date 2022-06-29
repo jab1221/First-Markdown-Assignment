@@ -1,0 +1,89 @@
+---
+title: "**What are the Chances?**"
+author: "Agaya J, Ormilon M, Pagulayan D, Pelobello F"
+date: '2022-06-29'
+output: html_document
+---
+
+
+
+## **Monty Hall Problem**
+![](https://miro.medium.com/max/1200/0*sxVwbNzvVnHuklug.png)
+
+In essence, the Monty Hall problem hails from a game show hosted by Monty Hall himself. The game involves the player choosing between three doors, hoping that a special prize (in the case of the show, a car) would be behind their chosen door. Once the player has chosen their door, one of the other two unpicked doors will be opened and it is shown to be empty. Then, you will be given a choice to either switch your chosen door or stay with your initial choice. The door you eventually picked at the very end will be opened, revealing what is behind it. So, what is your choice, STAY or SWITCH?
+
+### Stay
+![Probability Table if you choose to STAY](images\STAY.jpg)
+
+**Probability of winning if you stay:**
+$$\frac{3}{9}=\frac{1}{3}=33.33\%$$
+
+### Switch
+![Probability Table if you choose to SWITCH](images\SWITCH.jpg)
+
+**Probability of winning if you switch:**
+$$\frac{6}{9}=\frac{2}{3}=66.67\%$$
+
+### **You should always switch to get an extra 33.33%!**
+Try thinking of it this way, if you choose to switch, then the only way to lose is if you had initially picked the door with the car. So, rather than having a 33.33% chance of winning the car, you instead have only a 33.33% chance of losing by selecting the car door first.
+
+On the contestant’s initial choice, there is a ⅓ chance that they pick the door with the car, and a ⅔ chance of picking a door with a zonk. On the ⅓ chance that your initial chosen door is the car, Monty hall will open either one of the two doors that contains a goat.
+On the other hand, since the chance for the contestant to choose a losing door is twice more likely than choosing the door with a car, switching would then double the probability that you win the game. This is because Monty Hall will be forced to open the only other losing door if your initial choice was a losing door, leaving the car in the remaining unopened door. There is a 66% chance that the contestant’s initial choice was a losing door, and thus, a 66% chance that the remaining unopened door is a car. This strategy doesn’t necessarily guarantee that the contestant will win the car, but it doubles the probability of winning from 33% of the time to 66%. 
+
+#### *For more information regarding the Monty Hall Problem, You may watch these videos:*
+[Monty Hall Scene from the movie "21"](https://www.youtube.com/watch?v=cXqDIFUB7YU)
+
+[Numberphile Explains the Monty Hall Problem](https://www.youtube.com/watch?v=4Lb-6rxZxx0)
+
+## **Ultra Lotto 6/58**
+![](images\LOTTO.jpg)
+
+Did you know you have a better chance of being struck by lightning than winning the lottery? Even if you were to win, the odds would still be stacked against you.
+
+One of the most popular lottery games in the Philippines is Ultra Lotto 6/58. Players enter Ultra Lotto 6/58 by selecting six main numbers between 1 and 58. According to the PCSO, all balls have the same weight, and a machine automates mixing the machines and drawing the balls in the transparent chamber.
+
+### What are the chances of guessing the 6 out of 58 numbers and winning the 50 million peso jackpot?
+
+Number of Possible Combinations in Ultra Lotto 6/58 $= \frac{n !}{r! (n-r)!}$
+
+Where:
+
+n = Total number of possible numbers = 58
+
+r = Number of numbers chosen = 6
+
+ $$= \frac{58 !}{6! (58-6)!}$$
+ $$= \frac{58 !}{6! (52)!}$$
+$$Number\ of\ Possible\ Combinations\ in\ Ultra\ Lotto\ 6/58 = 40, 475, 358 $$
+
+In the 6/58 Ultra Lotto game, there are precisely 40,475,350 combinations in which each appearing number in the six-digit combination does not reoccur. Assume you're dead set on getting the winning combination. That means you must bet on all 40 million+ possible combinations.
+
+### Supposing you placed a bet on all possible combinations, is it worth it?
+Lotto tickets in the Philippines are worth P20. This means that you have to pay P20 on each possible combination to secure the P50 million jackpot.Let's do some quick maths to see if it is worth it.
+
+$$40,475,350\times20=809,507,160$$
+Since 809,507,160 > 50,000,000, it is **NOT WORTH IT.**
+
+The ratio is approximately 16:1, which is similar to paying 16 pesos for just 1 peso, but in this scenario, you are paying more than 800 million for 50 million.
+
+**The data above shows that a single winning ticket has a 0.00000247063% chance of being drawn. In comparison, the chances of being struck by lightning are one in 960,000 or 0.00010416666%t. Meanwhile, your chances of being hit by a second bolt of lightning are 0.00001111111%. There's a higher likelihood that lightning will turn you into a lechon manok before you win the lottery.**
+
+
+
+## References:
+
+* [1]“Ultra Lotto 6/58 Jackpot: On Probability, Strategy, And Past Lottery Winners,” eCompareMo. https://www.ecomparemo.com/info/ultra-lotto-6-58-jackpot-on-probability-strategy-and-past-lottery-winners?fbclid=IwAR0KrQUjXHcPLK44rdwjABdHYE__gdaGUeDSwObJ1oxM7j5utL2HUQvOn58 (accessed Jun. 29, 2022).
+
+* 
+
+
+
+## Image and Video sources:
+
+* https://miro.medium.com/max/1200/0*sxVwbNzvVnHuklug.png
+
+* https://www.youtube.com/watch?v=cXqDIFUB7YU
+
+* https://www.youtube.com/watch?v=4Lb-6rxZxx0
+
+* https://www.google.com/url?q=https://philippinesreport.com/wp-content/uploads/2018/01/658.png&sa=D&source=docs&ust=1656476288348084&usg=AOvVaw2srKPO-mMu0oU2uhT-uKF6
