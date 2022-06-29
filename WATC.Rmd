@@ -72,12 +72,17 @@ The ratio is approximately 16:1, which is similar to paying 16 pesos for just 1 
 
 ## References:
 
-* [1]“Ultra Lotto 6/58 Jackpot: On Probability, Strategy, And Past Lottery Winners,” eCompareMo. https://www.ecomparemo.com/info/ultra-lotto-6-58-jackpot-on-probability-strategy-and-past-lottery-winners?fbclid=IwAR0KrQUjXHcPLK44rdwjABdHYE__gdaGUeDSwObJ1oxM7j5utL2HUQvOn58 (accessed Jun. 29, 2022).
+* “Ultra Lotto 6/58 Jackpot: On Probability, Strategy, And Past Lottery Winners,” eCompareMo. https://www.ecomparemo.com/info/ultra-lotto-6-58-jackpot-on-probability-strategy-and-past-lottery-winners?fbclid=IwAR0KrQUjXHcPLK44rdwjABdHYE__gdaGUeDSwObJ1oxM7j5utL2HUQvOn58 (accessed Jun. 29, 2022).
 
-*   [2]L. PCSO, “6/58 Lotto Result History, Summary - Official PCSO Lotto Results,” LOTTOPCSO, Jun. 28, 2022. https://www.lottopcso.com/6-58-lotto-result-history-and-summary/#:~:text=Ultra%20Lotto%206%2F58%20is%20one%20of%20the%20most (accessed Jun. 29, 2022).
+* L. PCSO, “6/58 Lotto Result History, Summary - Official PCSO Lotto Results,” LOTTOPCSO, Jun. 28, 2022. https://www.lottopcso.com/6-58-lotto-result-history-and-summary/#:~:text=Ultra%20Lotto%206%2F58%20is%20one%20of%20the%20most (accessed Jun. 29, 2022).
 ‌
+* J. Frost, “The Monty Hall Problem: A Statistical Illusion,” Statistics By Jim, 01-Feb-2021. [Online]. Available: https://statisticsbyjim.com/fun/monty-hall-problem/. [Accessed: 29-Jun-2022].
 
+* numberphile, “Monty Hall Problem (best explanation) - numberphile,” YouTube, 28-May-2014. [Online]. Available: https://www.youtube.com/watch?v=7u6kFlWZOWg&amp;t=121s. [Accessed: 29-Jun-2022].
 
+* “Understanding the monty hall problem,” BetterExplained. [Online]. Available: https://betterexplained.com/articles/understanding-the-monty-hall-problem/. [Accessed: 29-Jun-2022].
+
+* M. Mitzenmacher, “The Monty Hall Problem: A Study,” p. 9.
 
 
 
